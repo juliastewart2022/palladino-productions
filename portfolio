@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Photography Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .album { margin: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+        img { width: 100%; height: auto; } 
+    </style>
+</head>
+<body>
+    <h1>Race Photography Portfolio</h1>
+    <div class="albums">
+        <div class="album">
+            <h2>Daytona Speedway</h2>
+            <div class="grid">
+                <img src="link-to-daytona-image1.jpg" alt="Daytona 1">
+                <img src="link-to-daytona-image2.jpg" alt="Daytona 2">
+                <img src="link-to-daytona-image3.jpg" alt="Daytona 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Talladega</h2>
+            <div class="grid">
+                <img src="link-to-talladega-image1.jpg" alt="Talladega 1">
+                <img src="link-to-talladega-image2.jpg" alt="Talladega 2">
+                <img src="link-to-talladega-image3.jpg" alt="Talladega 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Local Dirt Track</h2>
+            <div class="grid">
+                <img src="link-to-local-dirt-track-image1.jpg" alt="Local Dirt Track 1">
+                <img src="link-to-local-dirt-track-image2.jpg" alt="Local Dirt Track 2">
+                <img src="link-to-local-dirt-track-image3.jpg" alt="Local Dirt Track 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Charlotte Motor Speedway</h2>
+            <div class="grid">
+                <img src="link-to-charlotte-image1.jpg" alt="Charlotte 1">
+                <img src="link-to-charlotte-image2.jpg" alt="Charlotte 2">
+                <img src="link-to-charlotte-image3.jpg" alt="Charlotte 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Indianapolis 500</h2>
+            <div class="grid">
+                <img src="link-to-indy-image1.jpg" alt="Indy 1">
+                <img src="link-to-indy-image2.jpg" alt="Indy 2">
+                <img src="link-to-indy-image3.jpg" alt="Indy 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Monza Circuit</h2>
+            <div class="grid">
+                <img src="link-to-monza-image1.jpg" alt="Monza 1">
+                <img src="link-to-monza-image2.jpg" alt="Monza 2">
+                <img src="link-to-monza-image3.jpg" alt="Monza 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Silverstone Circuit</h2>
+            <div class="grid">
+                <img src="link-to-silverstone-image1.jpg" alt="Silverstone 1">
+                <img src="link-to-silverstone-image2.jpg" alt="Silverstone 2">
+                <img src="link-to-silverstone-image3.jpg" alt="Silverstone 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Monaco Grand Prix</h2>
+            <div class="grid">
+                <img src="link-to-monaco-image1.jpg" alt="Monaco 1">
+                <img src="link-to-monaco-image2.jpg" alt="Monaco 2">
+                <img src="link-to-monaco-image3.jpg" alt="Monaco 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Spa-Francorchamps</h2>
+            <div class="grid">
+                <img src="link-to-spa-image1.jpg" alt="Spa 1">
+                <img src="link-to-spa-image2.jpg" alt="Spa 2">
+                <img src="link-to-spa-image3.jpg" alt="Spa 3">
+            </div>
+        </div>
+        <div class="album">
+            <h2>Suzuka International Circuit</h2>
+            <div class="grid">
+                <img src="link-to-suzuka-image1.jpg" alt="Suzuka 1">
+                <img src="link-to-suzuka-image2.jpg" alt="Suzuka 2">
+                <img src="link-to-suzuka-image3.jpg" alt="Suzuka 3">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
