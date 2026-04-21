@@ -5,14 +5,14 @@
 }
 
 .header {
-    background-color: #8B4513; /* Brown */
+    background-color: #d3d3d3; /* light grey */
     color: white;
     text-align: center;
     padding: 10px 0;
 }
 
 .nav {
-    background-color: #FF7F50; /* Coral/Orange */
+    background-color: #ffffff; /* white */
     color: black;
     padding: 10px;
     text-align: center;
@@ -31,7 +31,7 @@
 }
 
 .card {
-    background-color: #3E2723; /* Dark Brown */
+    background-color: #d3d3d3; /* light grey */
     color: white;
     border-radius: 8px;
     padding: 15px;
@@ -43,7 +43,7 @@
 }
 
 .button {
-    background-color: #FF7F50; /* Coral/Orange */
+    background-color: #473e3a; /* dark grey */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -53,14 +53,14 @@
 }
 
 .footer {
-    background-color: #8B4513; /* Brown */
+    background-color: #d3d3d3; /* light grey */
     color: white;
     text-align: center;
     padding: 15px 0;
 }
 
 body {
-    background-color: #212121; /* Dark Theme */
+    background-color: #A09693; /* grey */
     color: white;
     font-family: Arial, sans-serif;
 }
