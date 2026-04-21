@@ -1,66 +1,118 @@
-.container {
-    max-width: 1200px;
+:root {
+    --bg: #212121;
+    --surface: #2f2f2f;
+    --text: #ffffff;
+    --brand-brown: #8b4513;
+    --brand-orange: #ff7f50;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header,
+footer {
+    background-color: var(--brand-brown);
+    color: var(--text);
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
-.header {
-    background-color: #8B4513; /* Brown */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0.75rem 0 0;
+    padding: 0;
 }
 
-.nav {
-    background-color: #FF7F50; /* Coral/Orange */
-    color: black;
-    padding: 10px;
-    text-align: center;
-}
-
-.nav a {
-    color: white;
-    margin: 0 15px;
+nav a {
+    color: var(--text);
     text-decoration: none;
+    font-weight: 700;
+}
+
+nav a:hover,
+nav a:focus-visible {
+    color: var(--brand-orange);
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: 20px;
 }
 
-.card {
-    background-color: #3E2723; /* Dark Brown */
-    color: white;
+.albums {
+    display: grid;
+    gap: 1rem;
+}
+
+.card,
+.product,
+.album {
+    background-color: var(--surface);
     border-radius: 8px;
     padding: 15px;
-    transition: transform 0.3s;
 }
 
-.card:hover {
-    transform: scale(1.05);
+.product + .product,
+.album + .album {
+    margin-top: 1rem;
 }
 
-.button {
-    background-color: #FF7F50; /* Coral/Orange */
-    color: white;
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    display: block;
+}
+
+a.button,
+button {
+    background-color: var(--brand-orange);
+    color: var(--text);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.footer {
-    background-color: #8B4513; /* Brown */
-    color: white;
-    text-align: center;
-    padding: 15px 0;
+a.button:hover,
+button:hover {
+    opacity: 0.9;
 }
 
-body {
-    background-color: #212121; /* Dark Theme */
-    color: white;
-    font-family: Arial, sans-serif;
+input,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background: #111;
+    color: #fff;
+}
+
+textarea {
+    min-height: 120px;
 }
